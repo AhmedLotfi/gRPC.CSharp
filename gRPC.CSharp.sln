@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proto", "Proto", "{F5EB1607-EFFF-4EB6-AAB8-538EBD6F4CDB}"
+	ProjectSection(SolutionItems) = preProject
+		Dummy.proto = Dummy.proto
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Clinet", "gRPC.Clinet\gRPC.Clinet.csproj", "{AD257D8C-93CA-4F30-AC41-71A663E40188}"
 EndProject
