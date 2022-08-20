@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proto", "Proto", "{F5EB1607
 		Greating.proto = Greating.proto
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Clinet", "gRPC.Clinet\gRPC.Clinet.csproj", "{AD257D8C-93CA-4F30-AC41-71A663E40188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Clinet", "Unary\gRPC.Clinet\gRPC.Clinet.csproj", "{AD257D8C-93CA-4F30-AC41-71A663E40188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Server", "gRPC.Server\gRPC.Server.csproj", "{FF23686F-0D01-4561-B8B1-10F705A9CB1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Server", "Unary\gRPC.Server\gRPC.Server.csproj", "{FF23686F-0D01-4561-B8B1-10F705A9CB1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{D261858A-1C6D-4D36-A4B3-9D434BF4725E}"
 EndProject
