@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Server", "Unary\gRPC.S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{D261858A-1C6D-4D36-A4B3-9D434BF4725E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService.Core", "GrpcService.Core\GrpcService.Core.csproj", "{1505799F-F809-4B04-828A-818786222DA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService.Core", "_Core\GrpcService.Core\GrpcService.Core.csproj", "{1505799F-F809-4B04-828A-818786222DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService.Core.Client", "GrpcService.Core.Client\GrpcService.Core.Client.csproj", "{DE10EC4F-AE0E-4884-ABA7-EB3D7A9728EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService.Core.Client", "_Core\GrpcService.Core.Client\GrpcService.Core.Client.csproj", "{DE10EC4F-AE0E-4884-ABA7-EB3D7A9728EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unary", "Unary", "{E7DE775A-5075-4286-9CAE-792E5604BCB2}"
 EndProject
