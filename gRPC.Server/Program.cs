@@ -1,4 +1,6 @@
-﻿using Grpc.Core;
+﻿using Greating;
+using gRPC.Server.Services;
+using Grpc.Core;
 using System;
 using System.IO;
 using gRPCServer = Grpc.Core.Server;
@@ -17,6 +19,7 @@ namespace gRPC.Server
             {
                 server = new gRPCServer()
                 {
+                    Services = { GreatingService.BindService(new GreatingAppService()) },
                     Ports = {
                         new ServerPort("localhost", Port, ServerCredentials.Insecure)
                     }

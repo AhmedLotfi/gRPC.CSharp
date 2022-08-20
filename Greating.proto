@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package Greating;
+
+message Greating{
+	string FirstName = 1;
+	string LastName = 2;
+}
+
+message GreatingRequest{
+  Greating Greating = 1;
+}
+
+message GreatingResponse{
+	string Result = 1;
+}
+
+service GreatingService{
+	rpc Great (GreatingRequest) returns (GreatingResponse){};
+	rpc GreatMore (GreatingRequest) returns (GreatingResponse){};
+}

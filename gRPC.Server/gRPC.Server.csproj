@@ -73,8 +73,11 @@
   <ItemGroup>
     <Compile Include="Models\Dummy.cs" />
     <Compile Include="Models\DummyGrpc.cs" />
+    <Compile Include="Models\Greating.cs" />
+    <Compile Include="Models\GreatingGrpc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\GreatingAppService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
